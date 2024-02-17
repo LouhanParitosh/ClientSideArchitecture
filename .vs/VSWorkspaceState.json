@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MFEAssignment",
+    "\\MFEAssignment\\mono-workspace",
+    "\\MFEAssignment\\mono-workspace\\projects",
+    "\\MFEAssignment\\mono-workspace\\projects\\host-app",
+    "\\MFEAssignment\\mono-workspace\\projects\\host-app\\src",
+    "\\MFEAssignment\\mono-workspace\\projects\\host-app\\src\\app",
+    "\\MFEAssignment\\mono-workspace\\projects\\host-app\\src\\app\\home",
+    "\\MFEAssignment\\mono-workspace\\projects\\mfe-app",
+    "\\MFEAssignment\\mono-workspace\\projects\\mfe-app\\src",
+    "\\MFEAssignment\\mono-workspace\\projects\\mfe-app\\src\\app",
+    "\\MFEAssignment\\mono-workspace\\projects\\mfe-app\\src\\app\\my-insurance-details"
+  ],
+  "SelectedNode": "\\MFEAssignment\\mono-workspace\\projects\\mfe-app2\\src\\app\\pay-premium\\pay-premium.component.ts",
+  "PreviewInSolutionExplorer": false
+}

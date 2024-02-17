@@ -1,0 +1,15 @@
+
+<div class="border">
+  <h1>  Welcome to Insurance Portal</h1>
+  <h3>This is MFE app 2</h3>
+  <!-- paypremium.component.html -->
+  <h2>Insurance Premium Calculation</h2>
+  <div>
+    <label for="ageInput">Enter your age:</label>
+    <input id="ageInput" type="number" [(ngModel)]="age" (input)="calculatePremium()">
+  </div>
+  <div>
+    <p>Your premium is Rs {{ premium }}</p>
+  </div>
+</div>
+

@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\mono-workspace",
+    "\\mono-workspace\\projects",
+    "\\mono-workspace\\projects\\host-app",
+    "\\mono-workspace\\projects\\host-app\\src",
+    "\\mono-workspace\\projects\\host-app\\src\\app",
+    "\\mono-workspace\\projects\\mfe-app",
+    "\\mono-workspace\\projects\\mfe-app2",
+    "\\mono-workspace\\projects\\mfe-app2\\src",
+    "\\mono-workspace\\projects\\mfe-app\\src",
+    "\\mono-workspace\\projects\\mfe-app\\src\\app",
+    "\\mono-workspace\\projects\\mfe-app\\src\\app\\my-insurance-details"
+  ],
+  "SelectedNode": "\\mono-workspace\\projects\\mfe-app2\\src\\app\\pay-premium\\pay-premium.component.html",
+  "PreviewInSolutionExplorer": false
+}
