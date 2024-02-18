@@ -23,8 +23,6 @@ export class PayPremiumComponent {
       });
 
       function calculatePremium(age) {
-        // Your premium calculation logic goes here
-        // Example: For simplicity, let's assume premium is age * 10
         return age * 1000/20 + 150;
       }
     `;
@@ -32,7 +30,7 @@ export class PayPremiumComponent {
     const blob = new Blob([workerScript], { type: 'application/javascript' });
     this.premiumWorker = new Worker(URL.createObjectURL(blob));
 
-    // Handle messages from the worker
+
     this.premiumWorker.onmessage = ({ data }) => {
       this.premium = data;
     };
