@@ -1,5 +1,12 @@
 <div class="border">
-  <h1>  Welcome to Insurance Portal</h1>
-  <h3>Enter your age:</h3>
-  <input id="ageInput" type="number" [(ngModel)]="age" (input)="saveAge()">
+  <h1>Insurance Details </h1>
+  <h3>Enter your insurance ID: </h3>
+  <input class="w3-input" id="ageInput" type="number" [(ngModel)]="insuranceID" (input)="saveId()">
+
+  <div class="instructions">
+    <h3>Instructions</h3>
+    <h4>1. Enter your insurance ID above.</h4>
+    <h4>2. Click on the 'My Insurance Detail' tab to see your insurance details.</h4>
+    <h4>3. Go to 'Pay Premium' tab to see the final cost of insurance.</h4>
+  </div>
 </div>

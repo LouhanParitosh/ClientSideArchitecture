@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./pay-premium.component.scss']
 })
 export class PayPremiumComponent {
-  age = localStorage.getItem("age") ? JSON.parse(localStorage.getItem("age") || '{}') : 30;
+  insuranceID = localStorage.getItem("insuranceID") ? JSON.parse(localStorage.getItem("insuranceID") || '{}') : 30;
     ; // Example age
   premium: number = 0;
   premiumWorker: Worker;
   insuranceType = 'Life'
+  age = 30;
 
   constructor() {
 

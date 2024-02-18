@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  age: number = 30; // Example age
+  insuranceID: number = 4456; // Example age
 
 
 
 
-  saveAge(): void {
-    localStorage.setItem("age", this.age.toString());
+  saveId(): void {
+    localStorage.setItem("insuranceID", this.insuranceID.toString());
     }
   
 }

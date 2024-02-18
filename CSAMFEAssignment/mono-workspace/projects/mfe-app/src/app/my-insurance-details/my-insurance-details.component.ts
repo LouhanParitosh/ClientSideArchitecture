@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-insurance-details.component.scss']
 })
 export class MyInsuranceDetailsComponent {
-
+  insuranceID = localStorage.getItem("insuranceID") ? JSON.parse(localStorage.getItem("insuranceID") || '{}') : 30;
 }
