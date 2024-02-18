@@ -6,7 +6,7 @@ const share = mf.share;
 const sharedMappings = new mf.SharedMappings();
 sharedMappings.register(
   path.join(__dirname, '../../tsconfig.json'),
-  [/* mapped paths to share */]);
+
 
 module.exports = {
   output: {
@@ -21,7 +21,7 @@ module.exports = {
     alias: {
       ...sharedMappings.getAliases(),
     },
-    extensions: ['.ts', '.js'] // Add this line to resolve TypeScript files
+    extensions: ['.ts', '.js'] 
   },
   experiments: {
     outputModule: true
@@ -29,12 +29,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ts$/, // Apply ts-loader for .ts files
+        test: /\.ts$/,
         use: 'ts-loader',
         exclude: /node_modules/
       },
       {
-        test: /\.worker\.ts$/, // Apply raw-loader for worker files
+        test: /\.worker\.ts$/, 
         use: 'raw-loader'
       }
     ]

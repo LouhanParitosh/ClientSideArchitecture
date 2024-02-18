@@ -6,7 +6,7 @@ const share = mf.share;
 const sharedMappings = new mf.SharedMappings();
 sharedMappings.register(
   path.join(__dirname, '../../tsconfig.json'),
-  [/* mapped paths to share */]);
+
 
 module.exports = {
   output: {
@@ -33,9 +33,6 @@ module.exports = {
         exposes: {
           './MyInsuranceDetailsModule': './projects/mfe-app/src/app/my-insurance-details/my-insurance-details.module.ts',
          },
-
-        
-        
 
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 

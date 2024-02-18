@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  insuranceID: number = 4456; // Example age
+  insuranceID: number = 4456;
 
 
 
